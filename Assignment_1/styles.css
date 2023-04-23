@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 20px;
+    background-color: #ccc;
+}
+
+.logo-title a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-title a span{
+    margin: 0 12px;
+    font-size: 20px;
+}
+
+.header-nav-links-container{
+    display: flex;
+}
+
+.header-nav-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-nav-links{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav-links li{
+    margin: 0 25px;
+    font-size: 18px;
+}
+
+.header-nav-links li:hover{
+    color: blue;
+}
+
+.nav-button-holder{
+    display: flex;
+    align-items: center;
+}
+
+.nav-button-holder button, .hero-button-holder button{
+    padding: 8px 15px;
+    color: white;
+    background-color: #191919;
+    cursor: pointer;
+    border: none;
+}
+
+.nav-button-holder button:hover, .hero-button-holder button:hover{
+    box-shadow: 4px 5px 8px #191919;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #ccc  ;
+}
+
+.hero-section-container>h1{
+    font-size: 60px;
+    width: 700px;
+    text-align: center;
+}
+
+.form-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    margin-left: 30px;
+    padding: 20px 0;
+    /* position: relative; */
+}
+
+.input-holder input{
+    width: 450px;
+    /* position: absolute; */
+    padding: 8px 30px;
+    left: 0;
+    margin: 0px;
+    border-radius: 5px;
+    border: 1px solid #191919;
+    /* position: relative; */
+}
+
+.input-holder i{
+    position: absolute;
+    padding: 7px;
+}
+
+.hero-button-holder button i{
+    margin-right: 5px
+}
+
+.hero-icons-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.hero-icons-section-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-icons-section-icons span{
+    margin-top: 10px;
+}
+
+.reservation-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 40px;
+    border-bottom: 1px solid #191919;
+}
+
+.reservation-section input{
+    padding: 7px 12px;
+    width: 160px;
+}
+
+.date-input-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.date-input-form i{
+    font-size: 30px;
+    margin-left: 8px;
+}
+
+.reservation-section button, .ordering-section-final-button-holder button, .special-offer-section button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #191919;
+    cursor: pointer;
+    border: none;
+}
+
+.reservation-section button:hover, .ordering-section-final-button-holder button:hover, 
+.special-offer-section button:hover{
+    box-shadow: 4px 5px 8px #191919;
+}
+
+.ordering-section{
+    padding-bottom: 30px;
+}
+
+.ordering-section-card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px 20px;
+}
+
+
+.ordering-section-title-text{
+    padding: 40px 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.ordering-section-title-text>h1{
+    font-size: 60px;
+}
+
+.ordering-section-card{
+    position: relative;
+    width: 270px;
+    margin-bottom: 50px;
+    box-shadow: 4px 3px #191919;
+}
+
+.ordering-section-card h3{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.ordering-section-card h4{
+    padding: 15px 8px;
+    font-size: 18px;
+}
+
+.under-title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px 30px 8px;
+}
+
+.ordering-section-card-button-holder, .ordering-section-final-button-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.ordering-section-card-text{
+    border: 1px solid #191919;
+    border-top: none;
+}
+
+.ordering-section-card-button-holder button{
+    padding: 5px 25px;
+    color: #191919;
+    background-color: whitesmoke;
+    border: 1px solid #191919;
+    box-shadow: 2px 3px #191919;
+    cursor: pointer;
+}
+
+.special-offer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+    padding: 30px 100px;
+}
+
+.special-offer-section h1{
+    margin: 30px 0;
+    font-size: 60px;
+}
+
+.special-offer-section p{
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+.special-offer-section h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.why-us-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.why-us-icons-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.why-us-section>h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.why-us-icons-section-each{
+    text-align: center;
+    margin: 40px;
+}
+
+.customer-review-section{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 50px;
+}
+
+.customer-review-section>h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.customer-review-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-review-card{
+    background-color: #eee;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+    margin: 0 20px;
+}
+
+.customer-review-card img{
+    border-radius: 50%;
+}
+
+.customer-review-card-text{
+    margin-left: 10px;
+}
+
+.customer-review-card-text h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.customer-review-card-text p{
+    font-size: 16px;
+    width: 300px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 10px;
+}
+
+.footer-nav-links strong, .footer-nav-links-social strong{
+    text-decoration: underline;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.footer-nav-links li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer-nav-links a{
+    color: #191919;
+    text-decoration: none;
+}
+
+.footer-nav-links-reach{
+    margin-bottom: 10px;
+}
+
+.footer-nav-links-social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav-links-social-icons a{
+    color: #191919;
+}
+
+.footer-nav-links-social-icons i{
+    font-size: 40px;
+}
+
+.below-the-footer-section{
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 40px;
+}
+
+.copyright-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.copyright-text p{
+    font-size: 20px;
+}  
+
+.credit-cards-section i{
+    margin: 0 6px;
+    font-size: 25px;
+}
